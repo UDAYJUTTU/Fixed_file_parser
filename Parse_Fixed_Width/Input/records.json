@@ -1,0 +1,32 @@
+[
+    {
+        "f1" : "Daniels",
+        "f2" : "FrontEnd Engineer",
+        "f3" : "IT",
+        "f4" : "28"
+    },
+    {
+        "f1" : "Teddy",
+        "f2" : "BackEnd Engineer",
+        "f3" : "SALES",
+        "f4" : "28"
+    },
+    {
+        "f1" : "Samantha",
+        "f2" : "Analyst",
+        "f3" : "OP",
+        "f4" : "28"
+    },
+    {
+        "f1" : "Brandon",
+        "f2" : "Data Engineer",
+        "f3" : "ADS",
+        "f4" : "28"
+    },
+    {
+        "f1" : "William Sheriff",
+        "f2" : "Operational Analyst",
+        "f3" : "OP",
+        "f4" : "55"
+    }
+]
