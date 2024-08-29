@@ -1,39 +1,40 @@
-### Parse fixed width file
+### Parse Fixed Width File
 
-- Parse_fixed_width file structure
-- Parse_Fixed_Width
-    - input
-    - output
-    - scripts
-        - utils.py
-    - testing
-        - test_cases.py
-    - __main__.py
-    - DOCKERFILE
+- **Directory Structure**:
+  - `Parse_Fixed_Width`
+    - `input`
+    - `output`
+    - `scripts`
+        - `utils.py`
+    - `testing`
+        - `test_cases.py`
+    - `__main__.py`
+    - `DOCKERFILE`
 
-- To run the file 
-``` use command 
+- **How to Run**:
+    - To run the script, use the following command:
+    ```sh
     python Parse_Fixed_Width
-    
-    for help
+    ```
+    - For help, use:
+    ```sh
     python Parse_Fixed_Width -h
-```
-- Modify input data records.json or specify your own path and Generated output are in output folder.
+    ```
 
+- Modify the input data in `records.json` or specify your own path. The generated output will be saved in the `output` folder.
 
-### Data processing
-- Data Processing file structure
-- Data_Processing
-    - files
-    - scripts
-        - Anonymise_big_data.py
-        - Anonymise_data.py
-        - Generate_csv_file.py
-        - main.py
+### Data Processing
 
-- Generate_csv_file.py script produces random data with "First Name, Last Name, Address, Dob" in it.
-- Anonymise_data.py is used to anonymise the data using randomly generated output
-- Anonymise_big_data.py is used to anonymise the data using the pyspark 
+- **Directory Structure**:
+  - `Data_Processing`
+    - `files`
+    - `scripts`
+        - `Anonymise_big_data.py`
+        - `Anonymise_data.py`
+        - `Generate_csv_file.py`
+        - `main.py`
 
-
-
+- **Scripts Overview**:
+  - `Generate_csv_file.py`: This script produces random data with the fields "First Name, Last Name, Address, Dob".
+  - `Anonymise_data.py`: This script anonymizes the data using randomly generated output.
+  - `Anonymise_big_data.py`: This script anonymizes large datasets using PySpark.
